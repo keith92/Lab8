@@ -1,0 +1,26 @@
+
+> lab8@0.0.0 start /opt/bitnami/apache2/htdocs/CS360/Lab8/lab8
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m66.426 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.536 ms - -[0m
+GET twins
+[ { _id: 56e37bdb384d46727b56324e,
+    Name: 'egroeg',
+    Comment: 'gniddup ekil i' } ]
+[0mGET /twins [36m304 [0m459.557 ms - -[0m
+[0mGET / [36m304 [0m0.494 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.543 ms - -[0m
+In the GET route?
+[ { __v: 0,
+    EvilTwin: 'egroeg',
+    Comment: 'i like pudding',
+    Name: 'george',
+    _id: 56e37bdb384d46727b56324d } ]
+[0mGET /comment [36m304 [0m787.530 ms - -[0m
+GET twins
+[ { _id: 56e37bdb384d46727b56324e,
+    Name: 'egroeg',
+    Comment: 'gniddup ekil i' } ]
+[0mGET /twins [36m304 [0m1.268 ms - -[0m
